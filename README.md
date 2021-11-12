@@ -24,11 +24,13 @@ Miłosz Janik
 
 Antoni Kijania
 
+
 Subjects:
 
 Technika Mikroprocesorowa 2
 
 Design Laboratory
+
 
 Project supervisor:
 
