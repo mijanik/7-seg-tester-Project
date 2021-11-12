@@ -8,8 +8,11 @@ We are creating this project to allow quick testing of 7-seg displays used by ot
 
 # Design assumptions
 For this project, we are using: 
+
 Freescale Freedom Development Platform - Kinetis FRDM-KL05Z
+
 3D-printed parts
+
 Photoresistor
 
 # Description
