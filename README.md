@@ -20,6 +20,7 @@ Photoresistor
 # Project & Authors information
 
 Authors:
+
 Miłosz Janik
 
 Antoni Kijania
