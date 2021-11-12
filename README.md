@@ -7,7 +7,10 @@ Simple to use, quick and reliable tester of 4-element 7-segment (+dot) displays.
 We are creating this project to allow quick testing of 7-seg displays used by other students.
 
 # Design assumptions
-For this project, we are using Freescale Freedom Development Platform - Kinetis FRDM-KL05Z
+For this project, we are using: 
+Freescale Freedom Development Platform - Kinetis FRDM-KL05Z
+3D-printed parts
+Photoresistor
 
 # Description
 
