@@ -21,9 +21,7 @@ Photoresistor
 
 Authors:
 
-Miłosz Janik
-
-Antoni Kijania
+Miłosz Janik & Antoni Kijania
 
 
 Subjects:
