@@ -22,3 +22,5 @@ Design Laboratory
 
 Project supervisor:
 mgr inż. Sebastian Koryciak
+
+![7-seg tester](https://user-images.githubusercontent.com/56133177/141514110-65254f97-5493-4d6b-aed9-412a37e86cd4.png)
