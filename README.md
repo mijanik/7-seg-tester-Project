@@ -12,7 +12,6 @@ For this project, we are using:
 - [x] Freescale Freedom Development Platform - Kinetis FRDM-KL05Z
 - [ ] 3D-printed parts
 - [x] Phototransistor
-- [ ] Designed all-in-one circuit board
 
 ## Description
 
