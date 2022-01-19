@@ -6,7 +6,7 @@ Simple to use, quick and reliable tester of 4-element 7-segment (+dot) displays.
 ## Purpose of the project
 We are creating this project to allow quick testing of 7-seg displays used (and probably broken) by other students.
 
-## Design assumptions
+## Parts being used
 For this project, we are using: 
 
 - [x] Freescale Freedom Development Platform - Kinetis FRDM-KL05Z
@@ -19,6 +19,13 @@ For this project, we are using:
 - [x] USB type-B breakout and plug
 - [x] Screws and PCB standoffs
 
+## Microcontroller functionality used
+- Finite State Machine and SysTick for switching the test routine for each segment
+- Analog-Digital Converter to read voltage value from phototransistor
+- UART to send test information to PC
+- I2C to handle LCD display
+- Interrupts
+
 ## Description
 
 At the end of the semester, it is necessary to test a large number of 7-segment displays returned by students to laboratories. However, manually checking each of their segments, e.g. using a multimeter, would require a lot of work and would be prone to a validation error. Hence the idea to construct an automatic testing device that would speed up this process. The main assumptions were ease of use and speed of operation.
@@ -26,9 +33,6 @@ The tester has been enclosed in a custom-made housing made with the use of 3D pr
 On the front of the housing there is a blue LCD display informing about the currently performed activity, one button for operating the entire device, red and green LED diode indicating the test result and a USB socket for connecting to a computer or the power supply itself. The push-in base is easy to detach for easy access to the inside of the housing. There, in addition to a large number of connecting cables, there is the heart of the tester - the FRDM-KL05Z development board and 3 bi-directional logic level converters, which made it possible to control the 7-segment display using a higher voltage of 5V. Thus, its brightness was increased during the test.
 To learn more about the tested display, we can connect the tester to the computer and use the connection through the UART serial port. By default, the device sends a text representation of the tested display to the computer after each test, which makes it possible to check which segments are faulty.
 
-The operation of the device is very simple. After connecting the power, the tester will ask you to press the button. Put a fully functional display in the recess and press the button. After a few seconds, the LCD shows the positive result of the test. This is also confirmed by the lit green LED. This information is also sent to the computer via UART, we can clearly see that all segments are operational.
-This operation can be repeated many times. This time, let's test the display with a simulated defect - several segments sealed with tape. The LCD shows information about the negative test result and the sum of the defective segments. In the terminal, we can see exactly which segments have not passed the test.
-The test program was designed on the basis of comparing the voltage value from the phototransistor read by the ADC converter with the reference value for each segment. This means that the tester is also able to detect a segment of the display that is OK but shines with reduced brightness.
 
 ## Project & Authors information
 
