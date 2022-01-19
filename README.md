@@ -10,16 +10,17 @@ We are creating this project to allow quick testing of 7-seg displays used (and 
 For this project, we are using: 
 
 - [x] Freescale Freedom Development Platform - Kinetis FRDM-KL05Z
-- [ ] 3D-printed parts
-- [x] Phototransistor
+- [x] 3D-printed Pyramid, well, base and pry tool
+- [x] Adafruit ALS-PT19 Phototransistor
+- [x] 3 Logic voltage coverters (3.3V to 5V)
+- [x] LCD display 2x16
+- [x] Red and green LED diodes
+- [x] PS10BRD button
+- [x] USB type-B breakout and plug
+- [x] Screws and PCB standoffs
 
 ## Description
 
-## Changelog
-
-*13 Nov 2021*
-> - Created GitHub Repository
-> - Created simple blinker program to blink every diode of display
 
 ## Project & Authors information
 
