@@ -1,7 +1,7 @@
 # 7-seg-quick-tester
 Simple to use, quick and reliable tester of 4-element 7-segment (+dot) displays. 
 
-![7-seg-tester concept](https://user-images.githubusercontent.com/56133177/141514110-65254f97-5493-4d6b-aed9-412a37e86cd4.png)
+![7-seg-tester concept](https://github.com/mijanik/7-seg-tester-Project/blob/main/7-seg-tester-photo.jpg)
 
 ## Purpose of the project
 We are creating this project to allow quick testing of 7-seg displays used (and probably broken) by other students.
