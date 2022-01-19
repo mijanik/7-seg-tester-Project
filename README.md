@@ -35,7 +35,7 @@ To learn more about the tested display, we can connect the tester to the compute
 
 ## Video Documentation [PL]
 
-[![7-seg-tester-video](https://img.youtube.com/vi/5NrXbGIQheE/0.jpg)](https://www.youtube.com/watch?v=5NrXbGIQheE) 
+[![7-seg-tester-video](https://cdn.discordapp.com/attachments/908788677063344208/933313403404042260/61e7edc8e03e5-fbutube-Screenshot_1.png)](https://www.youtube.com/watch?v=5NrXbGIQheE) 
 
 ## Project & Authors information
 
