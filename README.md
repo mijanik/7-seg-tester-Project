@@ -33,10 +33,6 @@ The tester has been enclosed in a custom-made housing made with the use of 3D pr
 On the front of the housing there is a blue LCD display informing about the currently performed activity, one button for operating the entire device, red and green LED diode indicating the test result and a USB socket for connecting to a computer or the power supply itself. The push-in base is easy to detach for easy access to the inside of the housing. There, in addition to a large number of connecting cables, there is the heart of the tester - the FRDM-KL05Z development board and 3 bi-directional logic level converters, which made it possible to control the 7-segment display using a higher voltage of 5V. Thus, its brightness was increased during the test.
 To learn more about the tested display, we can connect the tester to the computer and use the connection through the UART serial port. By default, the device sends a text representation of the tested display to the computer after each test, which makes it possible to check which segments are faulty.
 
-## Video Documentation [PL]
-
-[![7-seg-tester-video](https://cdn.discordapp.com/attachments/908788677063344208/933313403404042260/61e7edc8e03e5-fbutube-Screenshot_1.png)](https://www.youtube.com/watch?v=5NrXbGIQheE) 
-
 ## Project & Authors information
 
 ###### Authors:
